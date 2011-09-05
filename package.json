@@ -1,14 +1,17 @@
 {
-    "name": sfdc-node",
-		"description": "",
-    "version": "0.0.1",
-		"author": "Sanjay Gidwani (sanjay.gidwani@gmail.com)",
-    "dependencies": {
-      "express": "2.4.6",
-      "jade": ">= 0.0.1",
-		  "oauth": "0.9.5"
-  		},
-  	"keywords": ["salesforce", "rest","restful", "node", "node.js"],
-		"repository": "git://github.com/gidzone/sfdc-note",
-  	"main": "index",
+	"name": "sfdc-node",
+	"description": "Node.js wrapper for the Salesforce REST API leveraging express and the OAuth 2.0 packages.",
+	"version": "1.0.0",
+	"author": "Sanjay Gidwani (sanjay.gidwani@gmail.com)",
+	"repository": {
+		"type": "git", 
+		"url": "git://github.com/gidzone/sfdc-node"
+	},
+	"main": "index",
+	"dependencies": {
+		"express": "2.4.6",
+		"jade": "0.0.1",
+		"oauth": "0.9.5"
+	},
+	"keywords": ["salesforce", "sfdc", "rest", "restful"]
 }
