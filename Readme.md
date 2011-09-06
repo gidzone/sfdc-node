@@ -1,14 +1,16 @@
 ## sfdc-node
-	Node.js wrapper for the Salesforce REST API leverging express and the OAuth 2.0 packages.
+	Node.js wrapper for the Salesforce REST API leverging express and the OAuth 2.0 packages.  
+	The sample application can be found here: https://github.com/gidzone/nodejs-sfdc-sample
 
 ## Quickstart
 	Here is how to configure sfdc-node to authenticate with Salesforce via OAuth in order to make calls using the Salesforce REST API.
 	This quick start assumes the following:
-		- remote access application has been set up via Setup->Develop->Remote Access
-		- an express based application has been created
+		* remote access application has been set up via Setup->Develop->Remote Access
+		* an express based application has been created
 	
+	`
 	//app.js
-	var sfdc = require('./sfdc-node'); //or require('sfdc-node)
+	var sfdc = require('./sfdc-node'); //or require('sfdc-node')
 	
 	//OAuth Configuration
 	var clientId = '<enter your client id from Setup->Develop->Remote Access>';
@@ -87,7 +89,7 @@
 				res.end("<html><h2>Error:</h2>"+ message + "</html>");
 			}
 		});
-
+		`
 ## License 
 
 	(The MIT License)
